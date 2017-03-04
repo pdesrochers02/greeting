@@ -2,7 +2,7 @@
 instances: 1
 memory: 1G
 applications:
-  - name: greeter
+  - name: greeter-paul
     services:
       - service-registry
     env:

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: message-generation
+    name: message-generation-paul
   cloud:
     services:
       registrationMethod: route

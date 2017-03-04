@@ -2,7 +2,7 @@
 instances: 1
 memory: 1G
 applications:
-  - name: message-generation
+  - name: message-generation-paul
     services:
       - service-registry
     env:
