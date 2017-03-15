@@ -22,7 +22,7 @@ public class MessageGenerationApplication {
     }
 
     @RequestMapping("/greeting")
-    public Greeting greeting(@RequestParam(value="salutation", defaultValue="Hello") String salutation, @RequestParam(value="name", defaultValue="Bob") String name) {
+    public Greeting greeting(@RequestParam(value="salutation", defaultValue="Hello") String salutation, @RequestParam(value="name", defaultValue="Paul") String name) {
         log.info(String.format("Now saying \"%s\" to %s", salutation, name));
         return new Greeting(salutation, name);
     }
